@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { siteConfig } from "@/data/site";
 import { socialLinks } from "@/data/navigation";
@@ -71,29 +72,12 @@ export default function Hero() {
               <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_30%,rgba(59,130,246,0.15),transparent_50%)]" />
               <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_70%,rgba(139,92,246,0.15),transparent_50%)]" />
 
-              <div className="relative z-10 flex flex-col items-center gap-3 px-8 text-center">
-                <div className="flex h-16 w-16 items-center justify-center rounded-2xl border border-white/10 bg-white/5 backdrop-blur-sm">
-                  <svg
-                    className="h-8 w-8 text-electric"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    strokeWidth={1.5}
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"
-                    />
-                  </svg>
-                </div>
-                <p className="text-sm font-medium text-gray-400">
-                  Professional Photo Here
-                </p>
-                <p className="text-xs text-gray-600">
-                  Replace with your image
-                </p>
-              </div>
+              <Image
+                src="/shalvin%20photo.jpeg"
+                alt={`${siteConfig.name} photo`}
+                fill
+                className="object-cover"
+              />
 
               <div className="absolute inset-0 rounded-full border border-dashed border-white/10" />
             </div>

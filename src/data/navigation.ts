@@ -9,8 +9,8 @@ export const navLinks = [
 ] as const;
 
 export const socialLinks = {
-  email: "mailto:shalvinshabu@example.com",
-  linkedin: "https://linkedin.com/in/shalvinshabu",
-  github: "https://github.com/shalvinshabu",
+  email: "mailto:shalvinshabu1@gmail.com",
+  linkedin: "https://www.linkedin.com/in/shalvin-shabu-a05b19297",
+  github: "https://github.com/shalvin-shabu",
   resume: "/resume.pdf",
 } as const;
