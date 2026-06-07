@@ -2,7 +2,7 @@ export const skillCategories = [
   {
     title: "Programming",
     icon: "code",
-    skills: ["Python", "C", "R"],
+    skills: ["Python", "C", "R","SQL"],
     gradient: "from-blue-500/20 to-cyan-500/20",
     border: "border-blue-500/30",
   },
