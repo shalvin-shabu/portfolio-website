@@ -1,4 +1,17 @@
-export const achievements = [
+export type Achievement = {
+  title: string;
+  subtitle: string;
+  description: string;
+  icon: "rocket" | "certificate";
+  highlight: boolean;
+  imageUrl?: string;
+  pdfUrl?: string;
+  downloadFileName?: string;
+  issuedBy?: string;
+  issuedDate?: string;
+};
+
+export const achievements: Achievement[] = [
   {
     title: "NASA Space Apps Challenge 2024",
     subtitle: "Galactic Problem Solver Award",

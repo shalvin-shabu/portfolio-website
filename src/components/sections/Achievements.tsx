@@ -1,13 +1,13 @@
 "use client";
 
 import { useState } from "react";
-import { achievements } from "@/data/achievements";
+import { achievements, type Achievement } from "@/data/achievements";
 import SectionHeading from "@/components/ui/SectionHeading";
 import GlassCard from "@/components/ui/GlassCard";
 
 export default function Achievements() {
-  const [selectedAchievement, setSelectedAchievement] = useState(
-    null as (typeof achievements)[number] | null
+  const [selectedAchievement, setSelectedAchievement] = useState<Achievement | null>(
+    null
   );
 
   return (
