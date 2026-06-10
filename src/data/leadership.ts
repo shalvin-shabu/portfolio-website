@@ -1,13 +1,13 @@
 export const leadershipRoles = [
   {
-    title: "Student Branch President",
+    title: "Student Branch President (2025-2026)",
     organization: "Computer Society of India",
     description:
       "Leading strategic initiatives, technical programs, and community engagement for the CSI student branch.",
     icon: "president",
   },
   {
-    title: "Public Relations Officer (PRO)",
+    title: "Public Relations Officer (PRO)(2023-2025)",
     organization: "Computer Society of India",
     description:
       "Managed communications, outreach, and brand presence for CSI events and initiatives.",
