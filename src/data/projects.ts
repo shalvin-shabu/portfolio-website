@@ -48,7 +48,7 @@ export const projects = [
     description:
       "Environmental analytics and climate visualization system.",
     technologies: ["Python", "Pandas", "Matplotlib", "Data Analytics"],
-    github: "#",
+    github: "https://github.com/shalvin-shabu/NASA-Space-App-Challenge-2025",
     demo: "#",
     featured: false,
     gradient: "from-orange-600/30 to-red-600/30",
